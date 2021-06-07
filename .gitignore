@@ -1,0 +1,5 @@
+.mypy_cache
+.vscode
+images/
+__pycache__
+test.py
