@@ -1,8 +1,9 @@
 # scoreboard.py
----
+
 ## Description
 Create PNG images for various types of scoreboards.
----
+
+
 ## Usage
 ```py
 from scoreboard import Leaderboard
@@ -23,12 +24,11 @@ with open("leaderboard.b64", "wb") as f:
     f.write(b64_leaderboard)
 ```
 
----
 ## Image Examples
 
 ### Leaderboard
 
-![]()
+![Leaderboard Image](https://raw.githubusercontent.com/lucasvanmol/scoreboard/main/example_images/leaderboard.png)
 
 ```py
 from scoreboard import Leaderboard, Head2Head
@@ -42,7 +42,7 @@ lb.save_image("example_images/leaderboard.png")
 
 ### Head2head
 
-![]()
+![Head2head Image](https://raw.githubusercontent.com/lucasvanmol/scoreboard/main/example_images/head2head.png)
 
 ```py
 # Head2head with some custom colors
